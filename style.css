@@ -413,13 +413,14 @@ pre {
   gap: 5px;
 }
 
-.portfolio-item {
+/* .portfolio-item {
   width: 275.3px;
   height: 195px;
-}
+} */
 
 .portfolio-image {
-  width: 100%;
+  width: 291.3px;
+  height: 199px;
 }
 
 .home-title {
@@ -458,6 +459,7 @@ pre {
 
 .git-link {
   width: 30px;
+  height: 30px;
 }
 
 .git-link:hover {
