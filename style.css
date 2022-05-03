@@ -136,7 +136,7 @@ li {
 
 section {
   padding: 80px 0;
-  max-width: 930px;
+  max-width: 980px;
   display: flex;
   column-gap: 60px;
   margin: 0 auto;
@@ -250,6 +250,7 @@ address {
 
 .links {
   color:  #2f3239;
+  position: relative;
 }
 
 .resume-link {
@@ -437,20 +438,22 @@ pre {
 }
 
 .home-img {
-  width: 750px;
+  width: 100%;
   height: auto;
 }
 
 .home-left-container-welcome {
   display: flex;
   flex-direction: column;
-  height: 200px
+  height: 300px;
+  padding-top: 50px;
 }
 
 .home-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
+  padding: 0 0 10px 0;
 }
 
 .git-link {
@@ -505,10 +508,11 @@ pre {
 }
 
 .home {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
+    /* padding: 66px 0; */
+    column-gap: 0;
 }
-
 
 #btnTop {
     display: none;
