@@ -37,7 +37,12 @@ const i18nObj = {
     'contact-text': 'Contact information is available on your resume.',
     'title-university': 'Moscow Polytechnic University',
     'code-text': 'code',
-    'top': 'Top'
+    'top': 'Top',
+    'overlay-link': 'Read more',
+    'overlay-title-1': 'Project "Shelter"',
+    'overlay-title-2': 'Project "Portfolio"',
+    'overlay-title-3': 'Project "Eco-sounds"',
+    'overlay-title-4': 'Project "Random jokes"'
   },
   'ru': {
     'home-anchor': 'Домой',
@@ -68,7 +73,12 @@ const i18nObj = {
     'recent-work': 'Мои последние работы',
     'contact-text': 'Контактная информация указана в резюме.',
     'code-text': 'код',
-    'top': 'Вверх'
+    'top': 'Вверх',
+    'overlay-link': 'Подробнее',
+    'overlay-title-1': 'Проект "Шелтер"',
+    'overlay-title-2': 'Проект "Портфолио"',
+    'overlay-title-3': 'Проект "Звуки природы"',
+    'overlay-title-4': 'Проект "Случайные шутки"'    
   }
 }
 
