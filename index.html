@@ -351,9 +351,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="right-container">
-						<pre>
-import axios from 'axios';
+					<div class="right-container code-block">
+					<pre>import axios from 'axios';
 
 const BASE_URL = 'http://localhost:5000';
 
@@ -379,7 +378,7 @@ export function login (data) {
 
 export function isAuthenticated(){
 	return localStorage.getItem('x-access-token') && localStorage.getItem('x-access-token-expiration') > Date.now()
-}<button class="select-all">Select all</button></pre>
+}</pre><button class="select-all" data-i18n="select-all" title="For what? Because you can =)">Select and Copy all</button>
 					</div>
 				</section>
 		</div>

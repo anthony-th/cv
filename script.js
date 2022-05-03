@@ -42,7 +42,8 @@ const i18nObj = {
     'overlay-title-1': 'Project "Shelter"',
     'overlay-title-2': 'Project "Portfolio"',
     'overlay-title-3': 'Project "Eco-sounds"',
-    'overlay-title-4': 'Project "Random jokes"'
+    'overlay-title-4': 'Project "Random jokes"',
+    'select-all': 'Select and Copy all'
   },
   'ru': {
     'home-anchor': 'Домой',
@@ -78,7 +79,8 @@ const i18nObj = {
     'overlay-title-1': 'Проект "Шелтер"',
     'overlay-title-2': 'Проект "Портфолио"',
     'overlay-title-3': 'Проект "Звуки природы"',
-    'overlay-title-4': 'Проект "Случайные шутки"'
+    'overlay-title-4': 'Проект "Случайные шутки"',
+    'select-all': 'Выделить и копировать всё'
   }
 }
 
@@ -148,11 +150,12 @@ switcher.addEventListener('click', () => {
 const selectAll = document.querySelector('.select-all');
 const pre = document.querySelector('pre');
 selectAll.addEventListener('click', () => {
-  // pre.Select.textContent();
-  // pre.select();
-  pre.focus();
-  console.log(pre.textContent);
+  let range = document.createRange();
+  range.selectNode(pre);
+  window.getSelection().addRange(range);
+  document.execCommand('copy');
 });
+
 
 // let counter = document.querySelector('.counter');
 //

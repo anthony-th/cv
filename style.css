@@ -357,7 +357,7 @@ address {
 
 pre {
   position: relative;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 20px;
   background-color: rgba(201, 100, 59, 0.1);
   white-space: pre-wrap;
@@ -365,24 +365,30 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
+  color: #2f3239;
 }
 
 .select-all {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  padding: 3px 10px;
+  padding: 7px 20px;
   border: none;
-  /* overflow: hidden; */
-  border-radius: 4px;
-  background-color: #7E9799;
-  color: #ffffff;
+  background-color: rgba(201, 100, 59, 0.1);
+  color: #2f3239;
+  width: 50%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-size: 14px;
+}
+
+.code-block {
+  row-gap: 0;
+  align-items: center;
 }
 
 .select-all:hover {
   cursor: pointer;
-  color: #2f3239;
-  background-color: rgba(126, 151, 153, 0.5);
+  color: #000000;
+
+  background-color: #9BDDFF;
 }
 
 .education-list-item {
@@ -394,10 +400,6 @@ pre {
 
 .education-title-img {
   width: 60%;
-}
-
-.education-title-img:hover {
-  /* transform: scale(0.95); */
 }
 
 .hr {
@@ -468,35 +470,39 @@ pre {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  padding: 0 10px;
+  padding: 20px;
   top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: start;
+  justify-content: space-between;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(193, 130, 90);
   transition: all 0.4s ease-in-out;
   color: #fff;
   transform: translate(0px, -90px) rotate(0deg);
   text-align: justify;
 }
 
+.portfolio-item:nth-child(2n) .overlay {
+  background-color: rgba(70, 56, 47, 1);
+}
+
 .overlay-link {
   display: inline-block;
   text-decoration: none;
   padding: 7px 13px;
-  background: #000000;
+  background-color: #c93b59;
   color: #fff;
   font-family: montserrat, sans-serif;
   font-size: 14px;
   cursor: pointer;
-  -moz-user-select: none; /* Mozilla Firefox */
-  -ms-user-select: none; /* Internet Explorer (не поддерживается) */
-  -o-user-select: none; /* Opera Presto (не поддерживается) */
-  -webkit-user-select: none; /* Google Chrome, Opera Next, Safari */
-  border: 1px solid #2f3239;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  border: 1px solid #c93b59;
 }
 
 .portfolio-item:hover .overlay{
@@ -505,13 +511,14 @@ pre {
 }
 
 .overlay-link:hover {
-   background: #ff4e00;
+   background-color: rgba(201, 59, 89, 0.5);
+   border-radius: 5px;
 }
 
 .overlay-title {
   font-size: 17px;
   color: #ffffff;
-  border-bottom: 1px solid #c93b59;
+  border-bottom: 2px solid #c93b59;
 }
 
 .overlay-text {
@@ -544,6 +551,7 @@ pre {
   flex-direction: column;
   height: 300px;
   padding-top: 50px;
+  width: 262px;
 }
 
 .home-container {
@@ -606,9 +614,6 @@ pre {
 }
 
 .home {
-    /* display: flex;
-    align-items: center; */
-    /* padding: 66px 0; */
     column-gap: 0;
 }
 
@@ -791,8 +796,3 @@ pre {
 .nav-item:last-child:hover #curly-bracket-end {
   color: #ff971a;
 }
-
-/* .nav-item:hover #curly-bracket-start,
-.nav-item:hover #curly-bracket-end{
-  color: #ffffff;
-} */
