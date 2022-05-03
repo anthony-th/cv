@@ -78,7 +78,7 @@ const i18nObj = {
     'overlay-title-1': 'Проект "Шелтер"',
     'overlay-title-2': 'Проект "Портфолио"',
     'overlay-title-3': 'Проект "Звуки природы"',
-    'overlay-title-4': 'Проект "Случайные шутки"'    
+    'overlay-title-4': 'Проект "Случайные шутки"'
   }
 }
 
@@ -142,8 +142,17 @@ switcher.addEventListener('click', () => {
     translatePage(lang);
     homeTitle.style.fontFamily = 'sacramento,cursive';
   }
-})
+});
 
+
+const selectAll = document.querySelector('.select-all');
+const pre = document.querySelector('pre');
+selectAll.addEventListener('click', () => {
+  // pre.Select.textContent();
+  // pre.select();
+  pre.focus();
+  console.log(pre.textContent);
+});
 
 // let counter = document.querySelector('.counter');
 //

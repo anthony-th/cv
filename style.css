@@ -344,9 +344,9 @@ address {
   font-size: 36px;
 }
 
-/* .infographic:hover {
-  border-radius: 100px;
-} */
+.infographic:hover {
+  transform: scale(0.95);
+}
 
 .infographic-title {
   font-size: 16px;
@@ -356,6 +356,7 @@ address {
 }
 
 pre {
+  position: relative;
   border-radius: 5px;
   padding: 20px;
   background-color: rgba(201, 100, 59, 0.1);
@@ -364,6 +365,24 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
+}
+
+.select-all {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 3px 10px;
+  border: none;
+  /* overflow: hidden; */
+  border-radius: 4px;
+  background-color: #7E9799;
+  color: #ffffff;
+}
+
+.select-all:hover {
+  cursor: pointer;
+  color: #2f3239;
+  background-color: rgba(126, 151, 153, 0.5);
 }
 
 .education-list-item {
@@ -375,6 +394,10 @@ pre {
 
 .education-title-img {
   width: 60%;
+}
+
+.education-title-img:hover {
+  /* transform: scale(0.95); */
 }
 
 .hr {
