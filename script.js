@@ -92,7 +92,9 @@ const i18nObj = {
 const changeMenu = function() {
   burgerLine.classList.toggle('rotate');
   navList.classList.remove('open');
-  btnTop.style.display = "block";
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    btnTop.style.display = "block";
+  }
   body.classList.remove('overflow');
   shadow.classList.remove('shadow-open');
   if (burgerLine.classList.contains('rotate')) {
