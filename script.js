@@ -3,6 +3,10 @@ const btnTop = document.getElementById("btnTop");
 const switcher = document.querySelector('.languages-switch');
 const key = document.querySelectorAll('[data-i18n]');
 const homeTitle = document.querySelector('.home-title');
+const burgerMenu = document.querySelector('.burger-menu');
+const burgerLine = document.querySelector('.lines-block');
+const navList = document.querySelector('.nav-list');
+const body = document.querySelector('body');
 let lang = document.querySelector('.languages-switch').dataset.i18lan;
 
 
@@ -84,10 +88,38 @@ const i18nObj = {
   }
 }
 
+const changeMenu = function() {
+  burgerLine.classList.toggle('rotate');
+  navList.classList.remove('open');
+  btnTop.style.display = "block";
+  body.classList.remove('overflow');
+  if (burgerLine.classList.contains('rotate')) {
+    navList.classList.add('open');
+    body.classList.add('overflow');
+    btnTop.style.display = "none";
+  }
+};
+
+document.querySelectorAll('.nav-link').forEach(el => {
+  el.addEventListener('click', () => {
+    changeMenu();
+  })
+})
+
+function translatePage(lang) {
+    key.forEach((element) => {
+          element.textContent = i18nObj[lang][element.dataset.i18n];
+    });
+}
+
+burgerMenu.addEventListener('click', function(e) {
+    e.stopPropagation();
+    changeMenu();
+});
 
 window.addEventListener('scroll', () => {
     let scrollDistance = window.scrollY;
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 1010) {
       document.querySelectorAll('.section').forEach((el, i) => {
         if (el.offsetTop - document.querySelector('.nav').clientHeight <= scrollDistance) {
           document.querySelectorAll('.nav li').forEach((el) => {

@@ -23,7 +23,7 @@
 						<a class="link-git" href="https://github.com/anthony-th"><img class="git-link" src="./images/git.png" title="" alt="Anthony-th github	"/>Anthony-th</a>
 					</div>
 				</div>
-				<div class="right-container">
+				<div class="right-container home-container-img">
 					<img class="home-img" src="./images/logo_img.webp" alt=""/>
 				</div>
 			</section>
@@ -36,63 +36,70 @@
 						<h1 class="logo-title">Anthony Th</h1>
 					</a>
 				</div>
+				<div class="burger-menu">
+					<div class="lines-block">
+						<span class="burger-line"></span>
+						<span class="burger-line"></span>
+						<span class="burger-line"></span>
+					</div>
+				</div>
 				<nav class="nav">
 					<ul class="nav-list">
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#home" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#home" class="nav-link" data-i18n="home-anchor">Home</a>
+								<span class="text-anchor" data-i18n="home-anchor">Home</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#aboutme" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#aboutme" class="nav-link" data-i18n="aboutme-anchor">About Me</a>
+								<span class="text-anchor" data-i18n="aboutme-anchor">About Me</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#skills" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#skills" class="nav-link" data-i18n="skills-anchor">Skills</a>
+								<span class="text-anchor" data-i18n="skills-anchor">Skills</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#experience" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#experience" class="nav-link" data-i18n="experience-anchor">Experience</a>
+								<span class="text-anchor" data-i18n="experience-anchor">Experience</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#education" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#education" class="nav-link" data-i18n="education-anchor">Education</a>
+								<span class="text-anchor" data-i18n="education-anchor">Education</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#portfolio" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#portfolio" class="nav-link" data-i18n="portfolio-anchor">Portfolio</a>
+								<span class="text-anchor" data-i18n="portfolio-anchor">Portfolio</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#contact" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#contact" class="nav-link" data-i18n="contact-anchor">Contact</a>
+								<span class="text-anchor" data-i18n="contact-anchor">Contact</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 						<li class="nav-item">
-							<p class="curly-brackets">
+							<a href="#code" class="nav-link">
 								<span class="curly-bracket-start" id="curly-bracket-start">&#123;&nbsp;</span>
-								<a href="#code" class="nav-link" data-i18n="code-anchor">Code example</a>
+								<span class="text-anchor" data-i18n="code-anchor">Code example</span>
 								<span class="curly-bracket-end" id="curly-bracket-end">&nbsp;&#125;</span>
-							</p>
+							</a>
 						</li>
 					</ul>
 				</nav>
@@ -300,6 +307,7 @@
 								<p class="overlay-text" style="text-align: center">Status: in progress (pagintaion and carousel)</p>
 								<a class="overlay-link" data-i18n="overlay-link">Read more</a>
 							</div>
+							<div class="pop-up-shelter"></div>
 						</div>
 						<div class="portfolio-item">
 							<img class="portfolio-image" src="./images/projects/1.jpg" alt=""/>
@@ -308,6 +316,7 @@
 								<p class="overlay-text">The page is adaptive, with language switching and switching from dark to light themes. This layout is made with PerfectPixel for a full match with the layout from Figma</p>
 								<a class="overlay-link" data-i18n="overlay-link">Read more</a>
 							</div>
+							<div class="pop-up-portfolio"></div>
 						</div>
 						<div class="portfolio-item">
 							<img class="portfolio-image" src="./images/projects/2.jpg" alt=""/>
@@ -316,6 +325,7 @@
 								<p class="overlay-text">The functionality of the page is implemented in pure js without the use of third-party libraries. Each inscription plays the sound of the corresponding bird, the play\pause button pauses any track or starts it up again</p>
 								<a class="overlay-link" data-i18n="overlay-link">Read more</a>
 							</div>
+							<div class="pop-up-eco-sounds"></div>
 						</div>
 						<div class="portfolio-item">
 							<img class="portfolio-image" src="./images/projects/3.jpg" alt=""/>
@@ -324,6 +334,7 @@
 								<p class="overlay-text">In this application, when you click the button, a random quote from the API is displayed. Pressing the button is accompanied by sound and animation. The json file is used as the source of the quote. It is possible to switch the page between Russian and English</p>
 								<a class="overlay-link" data-i18n="overlay-link">Read more</a>
 							</div>
+							<div class="pop-up-random-jokes"></div>
 						</div>
 					</div>
 				</div>
@@ -389,6 +400,7 @@ export function isAuthenticated(){
 		</div>
 	</footer>
 	<button onclick="goTop()" id="btnTop" title="Go to top" data-i18n="top">Top</button>
+	<div class="shadow"></div>
  <script src="./script.js"></script>
 </body>
 </html>
