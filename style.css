@@ -182,6 +182,7 @@ h1 {
 .about-info__title{
   font-family: sacramento,cursive;
   font-weight: 400;
+  font-size: 32px;
 }
 
 .about-info,
@@ -556,8 +557,10 @@ pre {
 }
 
 .home-img {
-  width: 627.2px;
-  height: 480.6px;
+  /* width: 627.2px; */
+  width: 100%;
+  /* height: 480.6px; */
+  height: 100%;
 }
 
 .home-left-container-welcome {
