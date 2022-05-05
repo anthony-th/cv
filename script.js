@@ -102,7 +102,9 @@ const changeMenu = function() {
 
 document.querySelectorAll('.nav-link').forEach(el => {
     el.addEventListener('click', () => {
-      changeMenu();
+      if (burgerLine.classList.contains('rotate')) {
+        changeMenu();
+      }
     })
 })
 
