@@ -101,9 +101,9 @@ const changeMenu = function() {
 };
 
 document.querySelectorAll('.nav-link').forEach(el => {
-  el.addEventListener('click', () => {
-    changeMenu();
-  })
+    el.addEventListener('click', () => {
+      changeMenu();
+    })
 })
 
 function translatePage(lang) {
@@ -136,10 +136,12 @@ window.addEventListener('scroll', () => {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-    btnTop.style.display = "block";
-  } else {
-    btnTop.style.display = "none";
+  if (!burgerLine.classList.contains('rotate')) {
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+      btnTop.style.display = "block";
+    } else {
+      btnTop.style.display = "none";
+    }
   }
 }
 

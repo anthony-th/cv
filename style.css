@@ -887,10 +887,10 @@ pre {
   .nav-item {
     width: 100%;
     padding: 0;
-    height: calc(8vh);
+    height: calc(10vh);
   }
   .nav-item:hover {
-    height: calc(8vh);
+    height: calc(10vh);
   }
   .nav-item:last-child {
     border-bottom-left-radius: 4px;
