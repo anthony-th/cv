@@ -557,9 +557,10 @@ pre {
 .home-left-container-welcome {
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 100%;
   padding-top: 50px;
   width: 262px;
+  justify-content: inherit;
 }
 
 .home-container {
