@@ -821,7 +821,7 @@ pre {
   position: fixed;
 	left: -100vw;
 	top: 0;
-	z-index: 5;
+	z-index: 2;
 	width: 100vw;
 	height: 100vh;
 	background: rgba(41, 41, 41, 0.6);
@@ -873,7 +873,7 @@ pre {
     z-index: 1;
   }
   .nav-list {
-    width: 310px;
+    width: 320px;
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -925,7 +925,7 @@ pre {
   }
   .right-container {
     width: 100%;
-    padding: 0 60px;
+    padding: 0 80px;
   }
   .left-container {
     width: auto;
@@ -952,7 +952,7 @@ pre {
   .home-left-container-welcome {
     height: 200px;
     width: 100%;
-    padding-left: 63px;
+    padding-left: 80px;
   }
   .home-left-container-links {
     padding: 20px 0 0;
@@ -970,8 +970,91 @@ pre {
     opacity: 1;
     transform: translate(0px, 0px) rotate(0deg);
   }
+  .portfolio-item {
+    max-width: 335.9px;
+    max-height: 238.4px;
+  }
+  .main-container,
+  .footer-container,
+  .home-container {
+    padding-left: 0;
+  }
 }
 
-@media (max-width: 619.98px) {
+@media screen and (max-width: 619.98px) {
+  .home-title {
+    font-size: 30px;
+  }
+  .home-nickname {
+    font-size: 35px;
+  }
+  .home-text {
+    font-size: 22.5px;
+  }
+  .languages-switch {
+    width: 40px;
+    height: 25px;
+  }
+  .git-link {
+    width: 25px;
+    height: 25px;
+  }
+  .right-container {
+    padding: 0 50px;
+  }
+  .home-left-container-welcome {
+    padding-left: 60px;
+  }
+  .section:nth-child(1) {
+    padding: 10px 0 40px;
+  }
+  .logo-title {
+    display: none;
+  }
+  .title-base {
+    font-size: 30px;
+  }
+}
 
+@media screen and (max-width: 485px) {
+  .home-title {
+    font-size: 22px;
+  }
+  .home-nickname {
+    font-size: 30px;
+  }
+  .home-text {
+    font-size: 19.5px;
+  }
+  .languages-switch {
+    width: 30px;
+    height: 20px;
+  }
+  .git-link {
+    width: 20px;
+    height: 20px;
+  }
+  .home-left-container-welcome {
+    padding-left: 30px;
+  }
+  .right-container {
+    padding: 0 20px;
+  }
+  .home-container-img {
+    padding: 0;
+  }
+  .footer-container {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 320px) {
+  .section,
+  .footer,
+  .header {
+    min-width: 320px;
+  }
+  .footer-container {
+    /* min-width: 320px; */
+  }
 }

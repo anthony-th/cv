@@ -8,6 +8,7 @@ const burgerLine = document.querySelector('.lines-block');
 const navList = document.querySelector('.nav-list');
 const body = document.querySelector('body');
 let lang = document.querySelector('.languages-switch').dataset.i18lan;
+const shadow = document.querySelector('.shadow');
 
 
 const i18nObj = {
@@ -93,10 +94,12 @@ const changeMenu = function() {
   navList.classList.remove('open');
   btnTop.style.display = "block";
   body.classList.remove('overflow');
+  shadow.classList.remove('shadow-open');
   if (burgerLine.classList.contains('rotate')) {
     navList.classList.add('open');
     body.classList.add('overflow');
     btnTop.style.display = "none";
+    shadow.classList.add('shadow-open');
   }
 };
 
@@ -192,6 +195,17 @@ selectAll.addEventListener('click', () => {
   document.execCommand('copy');
 });
 
+
+document.addEventListener('click', function(e) {
+    const target = e.target;
+    const menu = target == navList || navList.contains(target);
+    const burgerMenuOpen = target == burgerMenu;
+    const navListOpen = navList.classList.contains('open');
+
+    if (!menu && !burgerMenuOpen && navListOpen) {
+        changeMenu();
+    }
+});
 
 // let counter = document.querySelector('.counter');
 //
