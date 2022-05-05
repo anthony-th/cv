@@ -11,6 +11,8 @@
   padding: 0;
   box-sizing: border-box;
   transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
 }
 
 html {
@@ -255,6 +257,8 @@ address {
 .footer-link::before,
 .links::before {
   transition: width 0.35s;
+  -webkit-transition: width 0.35s;
+  -moz-transition: width 0.35s;
 }
 
 .links {
@@ -488,6 +492,8 @@ pre {
   opacity: 0;
   background-color: rgb(193, 130, 90);
   transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
   color: #fff;
   transform: translate(0px, -90px) rotate(0deg);
   text-align: justify;
@@ -578,7 +584,11 @@ pre {
 .git-link:hover {
     opacity: 0.7;
     transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
     transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
 }
 
 .home-left-container-links {
@@ -742,7 +752,11 @@ pre {
 
 .languages-switch:hover {
   transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
 }
 
 .left-postition-text-symbol {
@@ -827,6 +841,8 @@ pre {
 	background: rgba(41, 41, 41, 0.6);
   opacity: 0;
   transition: opacity 2s ease;
+  -webkit-transition: opacity 2s ease;
+  -moz-transition: opacity 2s ease;
 }
 
 .shadow-open {
@@ -858,6 +874,8 @@ pre {
 
 .rotate {
 	transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
 }
 
 .overflow {
@@ -879,6 +897,8 @@ pre {
     top: 60px;
     right: -100%;
     transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -webkit-transform: scaleX(0);
     transform-origin: right 0;
   }
   .open {
@@ -969,6 +989,8 @@ pre {
   .portfolio-item:focus .overlay{
     opacity: 1;
     transform: translate(0px, 0px) rotate(0deg);
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
   }
   .portfolio-item {
     max-width: 335.9px;
@@ -1053,8 +1075,5 @@ pre {
   .footer,
   .header {
     min-width: 320px;
-  }
-  .footer-container {
-    /* min-width: 320px; */
   }
 }
