@@ -470,16 +470,16 @@ pre {
   overflow: hidden;
   font-family: montserrat, sans-serif;
   font-size: 14px;
-  max-height: auto;
+  height: auto;
   position: relative;
   /* aspect-ratio: attr(width) / attr(height); */
 }
 
 .portfolio-image {
   /* display: block; */
-  max-width: 100%;
-  max-height: 100%;
-  aspect-ratio: attr(width) / attr(height);
+  max-width: 654px;
+  max-height: 173px;
+  /* aspect-ratio: attr(width) / attr(height); */
 }
 
 .overlay {
@@ -560,11 +560,16 @@ pre {
   font-weight: 300;
 }
 
+.home-container-img {
+  max-width: 100%;
+  height: auto;
+}
+
 .home-img {
   /* width: 627.2px; */
   /* height: 480.6px; */
-  max-width: 100%;
-  height: auto;
+  max-width: 800px;
+  max-height: 613px;
 }
 
 .home-left-container-welcome {
@@ -584,8 +589,8 @@ pre {
 }
 
 .git-link {
-  max-width: 30px;
-  height: auto;
+  width: 30px;
+  height: 30px;
 }
 
 .git-link:hover {
@@ -605,8 +610,8 @@ pre {
 }
 
 .logo-avatar {
-    max-width: 42px;
-    height: auto;
+    width: 42px;
+    height: 42px;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -752,8 +757,8 @@ pre {
 }
 
 .languages-switch {
-    max-width: 50px;
-    height: auto;
+    width: 50px;
+    height: 30px;
     cursor: pointer;
     border: 1px solid rgba(47, 50, 57, .2);
 }
@@ -1001,13 +1006,13 @@ pre {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
   }
   .portfolio-item {
-    /* max-width: 335.9px;
-    max-height: 238.4px; */
+    max-width: 335.9px;
+    /* max-height: 238.4px; */
   }
   .portfolio-image {
-    max-width:335.9px;
-    height:auto;
-    aspect-ratio: attr(width) / attr(height);
+    /* max-width:335.9px;
+    height:auto; */
+    /* aspect-ratio: attr(width) / attr(height); */
   }
   .main-container,
   .footer-container,
@@ -1027,7 +1032,7 @@ pre {
     font-size: 22.5px;
   }
   .languages-switch {
-    width: 40px;
+    width: 37px;
     height: 25px;
   }
   .git-link {
@@ -1062,7 +1067,7 @@ pre {
     font-size: 19.5px;
   }
   .languages-switch {
-    width: 30px;
+    width: 29px;
     height: 20px;
   }
   .git-link {

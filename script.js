@@ -161,7 +161,7 @@ function goTop() {
 
 switcher.addEventListener('click', () => {
   if (switcher.classList.contains('en')) {
-    switcher.src = './images/other.png';
+    switcher.src = './images/other.webp';
     switcher.classList.remove('en');
     switcher.classList.add('ru');
     switcher.title = 'Russian language';
@@ -171,7 +171,7 @@ switcher.addEventListener('click', () => {
     homeTitle.style.fontFamily = 'Shlapak Script';
 
   } else if (switcher.classList.contains('ru')) {
-    switcher.src = './images/uk.png';
+    switcher.src = './images/uk.webp';
     switcher.classList.add('en');
     switcher.classList.remove('ru');
     switcher.title = 'English language';
