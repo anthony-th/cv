@@ -983,7 +983,7 @@ pre {
     width: 100%;
   }
   .home-left-container-welcome {
-    height: 200px;
+    height: 215px;
     width: 100%;
     padding-left: 80px;
   }
@@ -1076,6 +1076,7 @@ pre {
   }
   .home-left-container-welcome {
     padding-left: 30px;
+    height: 180px;
   }
   .right-container {
     padding: 0 20px;
