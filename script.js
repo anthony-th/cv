@@ -168,7 +168,8 @@ switcher.addEventListener('click', () => {
     switcher.alt = 'Russian language';
     lang = 'ru';
     translatePage(lang);
-    homeTitle.style.fontFamily = 'Shlapak Script';
+    // homeTitle.style.fontFamily = 'Shlapak Script';
+    homeTitle.style.fontFamily = 'Kanyon-Light';
 
   } else if (switcher.classList.contains('ru')) {
     switcher.src = './images/uk.webp';
