@@ -158,11 +158,6 @@ function goTop() {
 }
 
 
-function translatePage(lang) {
-    key.forEach((element) => {
-          element.textContent = i18nObj[lang][element.dataset.i18n];
-    });
-}
 
 switcher.addEventListener('click', () => {
   if (switcher.classList.contains('en')) {

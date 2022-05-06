@@ -412,7 +412,9 @@ pre {
 }
 
 .education-title-img {
-  width: 60%;
+  /* width: 60%; */
+  width: 393px;
+  height: 103.48px;
 }
 
 .hr {
@@ -459,7 +461,7 @@ pre {
 
 .portfolio-item {
   max-width: 308.9px;
-  display: inline-block;
+  /* display: inline-block; */
   box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
   border:1px solid #cfcfcf;
   background-color: #ffffff;
@@ -468,14 +470,16 @@ pre {
   overflow: hidden;
   font-family: montserrat, sans-serif;
   font-size: 14px;
-  max-height: 220.42px;
+  max-height: auto;
   position: relative;
+  /* aspect-ratio: attr(width) / attr(height); */
 }
 
 .portfolio-image {
-  display: block;
-  max-width:100%;
-  height:auto;
+  /* display: block; */
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: attr(width) / attr(height);
 }
 
 .overlay {
@@ -558,9 +562,9 @@ pre {
 
 .home-img {
   /* width: 627.2px; */
-  width: 100%;
   /* height: 480.6px; */
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .home-left-container-welcome {
@@ -580,8 +584,8 @@ pre {
 }
 
 .git-link {
-  width: 30px;
-  height: 30px;
+  max-width: 30px;
+  height: auto;
 }
 
 .git-link:hover {
@@ -601,7 +605,8 @@ pre {
 }
 
 .logo-avatar {
-    width: 42px;
+    max-width: 42px;
+    height: auto;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -747,8 +752,8 @@ pre {
 }
 
 .languages-switch {
-    width: 50px;
-    height: 30px;
+    max-width: 50px;
+    height: auto;
     cursor: pointer;
     border: 1px solid rgba(47, 50, 57, .2);
 }
@@ -996,8 +1001,13 @@ pre {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
   }
   .portfolio-item {
-    max-width: 335.9px;
-    max-height: 238.4px;
+    /* max-width: 335.9px;
+    max-height: 238.4px; */
+  }
+  .portfolio-image {
+    max-width:335.9px;
+    height:auto;
+    aspect-ratio: attr(width) / attr(height);
   }
   .main-container,
   .footer-container,
