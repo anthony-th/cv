@@ -414,7 +414,7 @@ pre {
   overflow: hidden;
   font-family: montserrat, sans-serif;
   font-size: 14px;
-  height: auto;
+  max-height: 180.5px;
   position: relative;
 }
 
@@ -946,6 +946,7 @@ pre {
   }
   .portfolio-item {
     max-width: 335.9px;
+    max-height: 181.5px;
   }
   .main-container,
   .footer-container,
