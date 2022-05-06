@@ -283,62 +283,6 @@ address {
   flex-wrap: wrap;
 }
 
-.progress-skills-title,
-.procent {
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.progress-line {
-  display: flex;
-  height: 7px;
-  background-color: #e9ecef;;
-}
-
-.progress-line-bar {
-  border-radius: 5px;
-}
-
-.progress-title-block {
-  margin-bottom: 20px;
-}
-
-.progress-title-procent-block {
-  display: flex;
-  justify-content: space-between;
-}
-
-.bar1 {
-  width: 90%;
-  background-color:#dc3545;
-}
-
-.bar2 {
-  width: 90%;
-  background-color: #9ACD32;
-}
-
-.bar3 {
-  width: 30%;
-  background-color: #4682B4;
-}
-
-.bar4 {
-  width: 40%;
-  background-color: #2f3239;
-}
-
-.bar5 {
-  width: 20%;
-  background-color: #FF7F50;
-}
-
-.bar6 {
-  width: 100%;
-  background-color: #FF1493;
-}
-
 .expirience-info.h4 {
   font-size: 24px;
 }
@@ -349,12 +293,12 @@ address {
 }
 
 .infographic {
-  width: 116px;
-  height: 116px;
-  border-radius: 232px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
   background-color: #FFA547;
   text-align: center;
-  line-height: 116px;
+  line-height: 100px;
   color: #ffffff;
   font-size: 36px;
 }
@@ -414,7 +358,6 @@ pre {
 }
 
 .education-title-img {
-  /* width: 60%; */
   width: 393px;
   height: 103.48px;
 }
@@ -463,7 +406,6 @@ pre {
 
 .portfolio-item {
   max-width: 308.9px;
-  /* display: inline-block; */
   box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
   border:1px solid #cfcfcf;
   background-color: #ffffff;
@@ -474,14 +416,11 @@ pre {
   font-size: 14px;
   height: auto;
   position: relative;
-  /* aspect-ratio: attr(width) / attr(height); */
 }
 
 .portfolio-image {
-  /* display: block; */
   max-width: 654px;
   max-height: 173px;
-  /* aspect-ratio: attr(width) / attr(height); */
 }
 
 .overlay {
@@ -568,8 +507,6 @@ pre {
 }
 
 .home-img {
-  /* width: 627.2px; */
-  /* height: 480.6px; */
   max-width: 800px;
   max-height: 613px;
 }
@@ -579,7 +516,7 @@ pre {
   flex-direction: column;
   height: 100%;
   padding-top: 50px;
-  width: 262px;
+  width: 100%;
   justify-content: inherit;
 }
 
@@ -1009,12 +946,6 @@ pre {
   }
   .portfolio-item {
     max-width: 335.9px;
-    /* max-height: 238.4px; */
-  }
-  .portfolio-image {
-    /* max-width:335.9px;
-    height:auto; */
-    /* aspect-ratio: attr(width) / attr(height); */
   }
   .main-container,
   .footer-container,
@@ -1088,6 +1019,13 @@ pre {
   }
   .footer-container {
     font-size: 14px;
+  }
+  .education-title-img {
+    max-width: 90%;
+    height: auto;
+  }
+  .select-all {
+    width: 60%;
   }
 }
 
