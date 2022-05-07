@@ -226,6 +226,7 @@ address {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .img-stack:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -236,6 +237,8 @@ address {
   transform: scale(0.9);
 }
 
+=======
+>>>>>>> c6a3e2d6f377bb85774c7b84991fc6d452e1b2fb
 .progress-right {
   width: 100%;
   display: flex;
@@ -255,15 +258,21 @@ address {
 .text-stack {
   font-size: 15px;
   font-weight: 500;
+<<<<<<< HEAD
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
+=======
+>>>>>>> c6a3e2d6f377bb85774c7b84991fc6d452e1b2fb
 }
 
 .img-stack {
   max-width: 50px;
   max-height: 50px;
+<<<<<<< HEAD
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
+=======
+>>>>>>> c6a3e2d6f377bb85774c7b84991fc6d452e1b2fb
 }
 
 .title-stack {
