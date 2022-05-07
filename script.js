@@ -35,7 +35,7 @@ const i18nObj = {
     'pet-projects': 'Pet-Projects',
     'english': 'English',
     'french': 'French',
-    'experience-text': 'More than 2 years of work as a CNC machine setter. Currently a freelancer.',
+    'experience-text': 'This information is available and presented in the summary.',
     'title-university': 'Moscow Polytechnic University',
     'text-university': 'The rest of the information is available in the resume.',
     'recent-work': 'My Recent Work',
@@ -48,7 +48,8 @@ const i18nObj = {
     'overlay-title-2': 'Project "Portfolio"',
     'overlay-title-3': 'Project "Eco-sounds"',
     'overlay-title-4': 'Project "Random jokes"',
-    'select-all': 'Select and Copy all'
+    'select-all': 'Select and Copy all',
+    'portfolio-text-info': 'This section presents projects from the "JS/FE Pre-School 2022" and "JavaScript/Front-end 2022Q1" courses.'
   },
   'ru': {
     'home-anchor': 'Домой',
@@ -73,7 +74,7 @@ const i18nObj = {
     'pet-projects': 'Свои проекты',
     'english': 'Английский',
     'french': 'Французский',
-    'experience-text': 'Более 2 лет работы в качестве наладчика станков с ЧПУ. В настоящее время - фрилансер.',
+    'experience-text': 'Данная информация доступна и представлена в резюме.',
     'title-university': 'Московский политехнический университет',
     'text-university': 'Остальную информацию можно найти в резюме.',
     'recent-work': 'Мои последние работы',
@@ -85,7 +86,8 @@ const i18nObj = {
     'overlay-title-2': 'Проект "Портфолио"',
     'overlay-title-3': 'Проект "Звуки природы"',
     'overlay-title-4': 'Проект "Случайные шутки"',
-    'select-all': 'Выделить и копировать всё'
+    'select-all': 'Выделить и копировать всё',
+    'portfolio-text-info': 'В этом разделе представлены проекты, выполненные в рамках программы курсов "JS/FE Pre-School 2022" и "JavaScript/Front-end 2022Q1".'
   }
 }
 
