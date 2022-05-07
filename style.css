@@ -769,6 +769,35 @@ pre {
 
 .pop-up-shelter {
   display: none;
+  position: fixed;
+  top: 25%;
+  left: 27%;
+  z-index: 100;
+  width: 650px;
+  height: 400px;
+  background: #ffffff;
+  /* display: flex; */
+  align-items: center;
+  padding: 20px;
+  box-shadow: 1px 3px 1px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.info-popup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10px;
+  row-gap: 5px;
+}
+
+.img-popup {
+  width: 280px;
+  height: 170px;
+}
+
+.title-popup {
+  font-size: 20px;
 }
 
 .pop-up-portfolio {
