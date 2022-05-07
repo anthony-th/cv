@@ -49,7 +49,9 @@ const i18nObj = {
     'overlay-title-3': 'Project "Eco-sounds"',
     'overlay-title-4': 'Project "Random jokes"',
     'select-all': 'Select and Copy all',
-    'portfolio-text-info': 'This section presents projects from the "JS/FE Pre-School 2022" and "JavaScript/Front-end 2022Q1" courses.'
+    'portfolio-text-info': 'This section presents projects from the "JS/FE Pre-School 2022" and "JavaScript/Front-end 2022Q1" courses.',
+    'title-stack': 'My stack',
+    'language-skill': 'Language skill'
   },
   'ru': {
     'home-anchor': 'Домой',
@@ -87,7 +89,9 @@ const i18nObj = {
     'overlay-title-3': 'Проект "Звуки природы"',
     'overlay-title-4': 'Проект "Случайные шутки"',
     'select-all': 'Выделить и копировать всё',
-    'portfolio-text-info': 'В этом разделе представлены проекты, выполненные в рамках программы курсов "JS/FE Pre-School 2022" и "JavaScript/Front-end 2022Q1".'
+    'portfolio-text-info': 'В этом разделе представлены проекты, выполненные в рамках программы курсов "JS/FE Pre-School 2022" и "JavaScript/Front-end 2022Q1".',
+    'title-stack': 'Мой стэк',
+    'language-skill': 'Знания языка'
   }
 }
 
