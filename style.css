@@ -226,6 +226,16 @@ address {
   justify-content: space-between;
 }
 
+.img-stack:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.text-stack:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
 .progress-right {
   width: 100%;
   display: flex;
@@ -245,11 +255,15 @@ address {
 .text-stack {
   font-size: 15px;
   font-weight: 500;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
 }
 
 .img-stack {
   max-width: 50px;
   max-height: 50px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
 }
 
 .title-stack {
@@ -384,6 +398,13 @@ pre {
 .education-title-img {
   width: 393px;
   height: 103.48px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.education-title-img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .hr {
