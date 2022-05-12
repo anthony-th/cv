@@ -226,6 +226,16 @@ address {
   justify-content: space-between;
 }
 
+.img-stack:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.text-stack:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
 .progress-right {
   width: 100%;
   display: flex;
@@ -245,11 +255,15 @@ address {
 .text-stack {
   font-size: 15px;
   font-weight: 500;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
 }
 
 .img-stack {
   max-width: 50px;
   max-height: 50px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
 }
 
 .title-stack {
@@ -384,6 +398,13 @@ pre {
 .education-title-img {
   width: 393px;
   height: 103.48px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.education-title-img:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .hr {
@@ -444,7 +465,7 @@ pre {
 
 .portfolio-image {
   max-width: 654px;
-  max-height: 173px;
+  max-height: 175px;
 }
 
 .overlay {
@@ -452,7 +473,7 @@ pre {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  padding: 20px;
+  padding: 20px 20px 15px;
   top: 0;
   left: 0;
   display: flex;
@@ -467,6 +488,23 @@ pre {
   color: #fff;
   transform: translate(0px, -90px) rotate(0deg);
   text-align: justify;
+}
+
+.over-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.over-icon {
+  width: 30px;
+  height: 30px;
+  opacity: 0.9;
+}
+
+.over-icon:hover {
+  opacity: 0.7;
 }
 
 .portfolio-item:nth-child(2n) .overlay {
@@ -970,7 +1008,7 @@ pre {
   }
   .portfolio-item {
     max-width: 335.9px;
-    max-height: 181.5px;
+    max-height: 180.8px;
   }
   .main-container,
   .footer-container,

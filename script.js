@@ -51,7 +51,11 @@ const i18nObj = {
     'select-all': 'Select and Copy all',
     'portfolio-text-info': 'This section presents projects from the "JS/FE Pre-School 2022" and "JavaScript/Front-end 2022Q1" courses.',
     'title-stack': 'My stack',
-    'language-skill': 'Language skill'
+    'language-skill': 'Language skill',
+    'overlay-text-1': 'Status: in progress',
+    'overlay-text-2': 'The page is adaptive, with language switch and dark/light modes. This layout is made with PerfectPixel for a perfect match with the layout from Figma',
+    'overlay-text-3': 'This project implements the playback of bird voices by the advised labels and the play/pause button',
+    'overlay-text-4': 'This application displays a random quote from the API when the button is clicked (with sound and animation). The json file is used as the source of the quote. This application has a ru\\eng language switch'
   },
   'ru': {
     'home-anchor': 'Домой',
@@ -91,7 +95,11 @@ const i18nObj = {
     'select-all': 'Выделить и копировать всё',
     'portfolio-text-info': 'В этом разделе представлены проекты, выполненные в рамках программы курсов "JS/FE Pre-School 2022" и "JavaScript/Front-end 2022Q1".',
     'title-stack': 'Мой стэк',
-    'language-skill': 'Знания языка'
+    'language-skill': 'Знания языка',
+    'overlay-text-1': 'Статус: в процессе выполнения',
+    'overlay-text-2': 'Страница адаптивная, с переключением языка и режимами темный/светлый. Этот макет сделан с помощью PerfectPixel для идеального совпадения с макетом из Figma',
+    'overlay-text-3': 'В этом проекте реализовано воспроизведение голосов птиц по предложенным надписям и кнопке воспроизведения/паузы',
+    'overlay-text-4': 'Это приложение отображает случайную цитату из API при нажатии на кнопку (со звуком и анимацией). В качестве источника цитаты используется json-файл. Это приложение имеет переключатель языка ru\\eng'
   }
 }
 
