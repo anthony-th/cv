@@ -9,7 +9,8 @@ const navList = document.querySelector('.nav-list');
 const body = document.querySelector('body');
 let lang = document.querySelector('.languages-switch').dataset.i18lan;
 const shadow = document.querySelector('.shadow');
-
+const counter = document.querySelector('.counter');
+const recentWorksCounter = document.querySelectorAll('.portfolio-image');
 
 const i18nObj = {
   'en': {
@@ -179,8 +180,6 @@ function goTop() {
   document.documentElement.scrollTop = 0;
 }
 
-
-
 switcher.addEventListener('click', () => {
   if (switcher.classList.contains('en')) {
     switcher.src = './images/other.webp';
@@ -204,7 +203,6 @@ switcher.addEventListener('click', () => {
   }
 });
 
-
 const selectAll = document.querySelector('.select-all');
 const pre = document.querySelector('pre');
 selectAll.addEventListener('click', () => {
@@ -213,7 +211,6 @@ selectAll.addEventListener('click', () => {
   window.getSelection().addRange(range);
   document.execCommand('copy');
 });
-
 
 document.addEventListener('click', function(e) {
     const target = e.target;
@@ -226,16 +223,4 @@ document.addEventListener('click', function(e) {
     }
 });
 
-// let counter = document.querySelector('.counter');
-//
-// function startTimer(speed, numToRun){
-//   let timer = 0;
-//   let interval = setInterval(function(){
-//     counter.innerHTML = timer;
-//     timer+=1;
-//     if (timer > numToRun) {
-//       clearInterval(interval);
-//     }
-//   }, speed);
-// }
-// startTimer(1, 4);
+counter.innerHTML = recentWorksCounter.length;
