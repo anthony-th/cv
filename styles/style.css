@@ -719,6 +719,7 @@ pre {
 
 .title-base {
     font-size: var(--text-title);
+    font-weight: 600;
 }
 
 .blue {
