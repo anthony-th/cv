@@ -787,11 +787,16 @@ pre {
 .left-postition-text-symbol {
   display: flex;
   align-items: center;
+  column-gap: 7px;
+}
+
+.code .left-postition-text-symbol {
+  column-gap: 3px;
 }
 
 .curly-bracket-start,
 .curly-bracket-end {
-  font-size: 14px;
+  font-size: var(--text-em-2);
   display: flex;
   align-items: baseline;
 }
