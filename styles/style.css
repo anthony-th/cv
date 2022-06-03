@@ -6,6 +6,13 @@
  src: url("../fonts/Kanyon-Light.woff") format("woff");
  font-display: swap;
 }
+@font-face {
+  font-family: "Kanyon-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Kanyon-Regular.woff") format("woff");
+  font-display: swap;
+ }
 
 :root {
   --text-section-description: 20px;
@@ -340,17 +347,20 @@ address {
 }
 
 .infographic {
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  background-color: #FFA547;
   text-align: center;
   line-height: 100px;
   color: #ffffff;
   font-size: 36px;
 }
 
-.infographic:hover {
+.infographic-percent {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #FFA547;
+}
+
+.infographic-percent:hover {
   transform: scale(0.95);
 }
 
@@ -359,6 +369,10 @@ address {
   font-weight: 400;
   text-transform: capitalize;
   margin-top: 10px;
+}
+
+.infographic:nth-child(2) .infographic-percent {
+  background-color:#ff6347;
 }
 
 pre {
@@ -427,10 +441,6 @@ pre {
   color: #2f3239;
   font-size: var(--text-section-description);
   line-height: 24px;
-}
-
-.infographic:nth-child(2) {
-  background-color:#ff6347;
 }
 
 .portfolio-info {
