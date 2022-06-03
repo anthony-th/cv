@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @font-face {
  font-family: "Kanyon-Light";
  font-style: normal;
  font-weight: 400;
- src: url("./fonts/Kanyon-Light.woff") format("woff");
+ src: url("../fonts/Kanyon-Light.woff") format("woff");
  font-display: swap;
+}
+
+:root {
+  --text-section-description: 20px;
+  --text-em: 16px;
+  --text-320-title: 42px;
+  --text-title: 46px;
+  --text-em-2: 14px;
 }
 
 * {
@@ -22,7 +29,8 @@ html {
 }
 
 body {
-  font-family: montserrat,sans-serif;
+  font-family: 'Kanyon-Light';
+  font-size: var(--text-section-description);
   font-weight: 400;
 }
 
@@ -91,7 +99,8 @@ li {
   height: 60px;
   color: #ffffff;
   font-size: 12px;
-  font-family: montserrat,sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   text-transform: uppercase;
   display: flex;
 }
@@ -182,7 +191,7 @@ h1 {
 }
 
 .about-info__title{
-  font-family: sacramento,cursive;
+  font-family: sacramento, cursive;
   font-weight: 400;
   font-size: 32px;
 }
@@ -192,7 +201,7 @@ h1 {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  font-size: 14px;
+  font-size: var(--text-section-description);
   text-indent: 5px;
 }
 
@@ -203,7 +212,7 @@ address {
 }
 
 .text-bold  {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .achievements {
@@ -253,7 +262,7 @@ address {
 }
 
 .text-stack {
-  font-size: 15px;
+  font-size: var(--text-section-description);
   font-weight: 500;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
@@ -267,7 +276,7 @@ address {
 }
 
 .title-stack {
-  font-size: 18px;
+  font-size: var(--text-section-description);
   text-indent: 5px;
 }
 
@@ -346,7 +355,7 @@ address {
 }
 
 .infographic-title {
-  font-size: 16px;
+  font-size: var(--text-section-description);
   font-weight: 400;
   text-transform: capitalize;
   margin-top: 10px;
@@ -363,6 +372,7 @@ pre {
   white-space: -o-pre-wrap;
   word-wrap: break-word;
   color: #2f3239;
+  font-size: var(--text-em);
 }
 
 .select-all {
@@ -373,7 +383,7 @@ pre {
   width: 50%;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  font-size: 14px;
+  font-size: var(--text-em-2);
 }
 
 .code-block {
@@ -415,7 +425,7 @@ pre {
 .education-text {
   font-weight: 400;
   color: #2f3239;
-  font-size: 14px;
+  font-size: var(--text-section-description);
   line-height: 24px;
 }
 
@@ -430,14 +440,14 @@ pre {
 }
 
 .portfolio-title {
-  font-family: montserrat,sans-serif;
-  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
   color: #2f3239;
   font-size: 1.5rem;
 }
 
 .portfolio-text {
-  font-size: 14px;
+  font-size: var(--text-section-description);
   line-height: 24px;
   color: #2f3239;
 }
@@ -457,7 +467,7 @@ pre {
   font: normal 14px sans-serif;
   border: 4px solid #ffffff;
   overflow: hidden;
-  font-family: montserrat, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   max-height: 180.5px;
   position: relative;
@@ -517,7 +527,7 @@ pre {
   padding: 7px 13px;
   background-color: #c93b59;
   color: #fff;
-  font-family: montserrat, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   cursor: pointer;
   -moz-user-select: none;
@@ -550,7 +560,7 @@ pre {
 
 .home-title {
   font-size: 35px;
-  font-family: sacramento,cursive;
+  font-family: sacramento, cursive;
 }
 
 .home-nickname {
@@ -621,7 +631,7 @@ pre {
 }
 
 .logo-title {
-    font-family: sacramento,cursive;
+    font-family: sacramento, cursive;
     color: rgb(112, 110, 110);
     font-size: 28px;
     opacity: 0.9;
@@ -681,9 +691,10 @@ pre {
 }
 
 .code-text {
-    font-size: 16px;
+    font-size: var(--text-section-description);
     display: flex;
     align-items: center;
+    font-weight: 500;
 }
 
 .symbol-text {
@@ -707,11 +718,11 @@ pre {
 }
 
 .title-base {
-    font-size: 40px;
+    font-size: var(--text-title);
 }
 
 .blue {
-    color: #9BDDFF;
+    color: #0e819b;
     font-size: 20px;
 }
 
@@ -1048,7 +1059,7 @@ pre {
     display: none;
   }
   .title-base {
-    font-size: 30px;
+    font-size: var(--text-320-title);
   }
 }
 
@@ -1081,7 +1092,7 @@ pre {
     padding: 0;
   }
   .footer-container {
-    font-size: 14px;
+    font-size: var(--text-em);
   }
   .education-title-img {
     max-width: 90%;
@@ -1090,6 +1101,16 @@ pre {
   .select-all {
     width: 60%;
   }
+  .portfolio-image {
+    max-width: 272px;
+    max-height: 153px;
+  }
+  .overlay {
+    padding: 10px;
+  }
+  pre {
+    font-size: var(--text-em-2);
+  }
 }
 
 @media screen and (min-width: 0) and (max-width: 320px) {
@@ -1097,5 +1118,8 @@ pre {
   .footer,
   .header {
     min-width: 320px;
+  }
+  .portfolio-item {
+    min-width: 280px;
   }
 }
