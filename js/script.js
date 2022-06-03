@@ -199,7 +199,7 @@ switcher.addEventListener('click', () => {
     switcher.alt = 'English language';
     lang = 'en';
     translatePage(lang);
-    homeTitle.style.fontFamily = 'sacramento,cursive';
+    homeTitle.style.fontFamily = 'sacramento, cursive';
   }
 });
 
