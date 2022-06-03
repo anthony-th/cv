@@ -11,6 +11,7 @@ let lang = document.querySelector('.languages-switch').dataset.i18lan;
 const shadow = document.querySelector('.shadow');
 const counter = document.querySelector('.counter');
 const recentWorksCounter = document.querySelectorAll('.portfolio-image');
+const header = document.querySelector('.header');
 
 const i18nObj = {
   'en': {
@@ -125,6 +126,7 @@ const changeMenu = function() {
     body.classList.add('overflow');
     btnTop.style.display = "none";
     shadow.classList.add('shadow-open');
+    header.scrollIntoView();
   }
 };
 
