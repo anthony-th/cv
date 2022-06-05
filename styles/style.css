@@ -639,95 +639,97 @@ h1 {
 }
 
 .git-link:hover {
-    opacity: 0.7;
-    transform: scale(0.85);
-    -webkit-transform: scale(0.85);
-    -moz-transform: scale(0.85);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
+  opacity: 0.7;
+  transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
 }
 
 .home-left-container-links {
-    padding: 0 10px;
-    column-gap: 5px;
+  padding: 0 10px;
+  column-gap: 5px;
 }
 
 .logo-avatar {
-    width: 42px;
-    height: 42px;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
+  width: 42px;
+  height: 42px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .logo-title {
-    font-family: sacramento, cursive;
-    color: rgb(112, 110, 110);
-    font-size: 28px;
-    opacity: 0.9;
+  font-family: sacramento, cursive;
+  color: rgb(112, 110, 110);
+  font-size: 28px;
+  opacity: 0.9;
 }
 
 .logo-title:hover,
 .logo-avatar:hover {
 	transition: 1s;
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    filter: grayscale(0%);
-    color: #ff4e00;
-    z-index: 1;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  color: #ff4e00;
+  z-index: 1;
 }
 
 .logo-anchor {
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .home {
-    column-gap: 0;
+  column-gap: 0;
 }
 
-#btnTop {
-    display: none;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 3;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: #2f3239;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 5px;
+.btnTop {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 3;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #2f3239;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 15px 12px 15px 15px;
+  border-radius: 5px;
+  font-family: 'Kanyon-Light';
+  letter-spacing: 0.1em;
 }
 
-#btnTop:hover {
-    background-color: #ff4e00;
+.btnTop:hover {
+  background-color: #ff4e00;
 }
 
 .code-title {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .code-left {
-    align-items: baseline;
+  align-items: baseline;
 }
 
 .code-text {
-    font-size: var(--text-section-description);
-    align-items: center;
-    font-weight: 500;
+  font-size: var(--text-section-description);
+  align-items: center;
+  font-weight: 500;
 }
 
 .symbol-text {
-    font-size: 46px;
+  font-size: 46px;
 }
 
 .left-postition-text-symbol:hover .blue,
@@ -737,69 +739,69 @@ h1 {
 .title-base:hover .yellow,
 .title-base:hover .lime,
 .title-base:hover .logo-color{
-    color: #ff4e00;
+  color: #ff4e00;
 }
 
 .center-code {
-    align-items: center;
+  align-items: center;
 }
 
 .title-base {
-    font-size: var(--text-title);
-    font-weight: 600;
+  font-size: var(--text-title);
+  font-weight: 600;
 }
 
 .blue {
-    color: #0e819b;
-    font-size: 20px;
+  color: #0e819b;
+  font-size: 20px;
 }
 
 .green {
-    color: rgb(126, 176, 63);
+  color: rgb(126, 176, 63);
 }
 
 .red {
-    color: #ed1c24;
+  color: #ed1c24;
 }
 
 .purple {
-    color: #873e95;
+  color: #873e95;
 }
 
 .yellow {
-    color: rgb(216, 202, 92);
+  color: rgb(216, 202, 92);
 }
 
 .lime {
-    color: rgb(145, 192, 116);
+  color: rgb(145, 192, 116);
 }
 
 .logo-color {
-    color: rgb(57, 52, 125);
+  color: rgb(57, 52, 125);
 }
 
 .links-text {
-    font-size: 16px;
-    color: #ffffff;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .link-git {
-    align-items: center;
-    column-gap: 10px;
-    text-decoration: none;
-    color: #ffffff;
-    width: fit-content;
+  align-items: center;
+  column-gap: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  width: fit-content;
 }
 
 .link-git:hover {
-    color: #2f3239;
+  color: #2f3239;
 }
 
 .languages-switch {
-    width: 50px;
-    height: 30px;
-    cursor: pointer;
-    border: 1px solid rgba(47, 50, 57, .2);
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid rgba(47, 50, 57, .2);
 }
 
 .languages-switch:hover {
