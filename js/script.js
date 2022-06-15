@@ -184,7 +184,7 @@ function goTop() {
 
 switcher.addEventListener('click', () => {
   if (switcher.classList.contains('en')) {
-    switcher.src = './images/other.webp';
+    switcher.src = './assets/images/other.webp';
     switcher.classList.remove('en');
     switcher.classList.add('ru');
     switcher.title = 'Russian language';
@@ -194,7 +194,7 @@ switcher.addEventListener('click', () => {
     homeTitle.style.fontFamily = 'Kanyon-Light';
 
   } else if (switcher.classList.contains('ru')) {
-    switcher.src = './images/uk.webp';
+    switcher.src = './assets/images/uk.webp';
     switcher.classList.add('en');
     switcher.classList.remove('ru');
     switcher.title = 'English language';

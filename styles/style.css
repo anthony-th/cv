@@ -3,14 +3,14 @@
  font-family: "Kanyon-Light";
  font-style: normal;
  font-weight: 400;
- src: url("../fonts/Kanyon-Light.woff") format("woff");
+ src: url("../assets/fonts/Kanyon-Light.woff") format("woff");
  font-display: swap;
 }
 @font-face {
   font-family: "Kanyon-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Kanyon-Regular.woff") format("woff");
+  src: url("../assets/fonts/Kanyon-Regular.woff") format("woff");
   font-display: swap;
  }
 
