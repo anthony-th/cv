@@ -809,6 +809,7 @@ h1 {
 
 .portfolio-item:nth-child(2n) .source-block:hover .title-source {
   color: #ffffff;
+  opacity: 0.7;
 }
 
 .portfolio-item:nth-child(2n) .git-icon {
