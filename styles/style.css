@@ -939,6 +939,11 @@ h1 {
  overflow: hidden;
 }
 
+.links-git {
+  display: flex;
+  gap: 10px;
+}
+
 @media screen and (max-width:1010px) {
 
   .header {
