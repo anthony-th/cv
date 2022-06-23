@@ -793,8 +793,26 @@ h1 {
   width: fit-content;
 }
 
-.link-git:hover {
+.title-source {
   color: #2f3239;
+}
+
+.link-git:hover,
+.source-block:hover .title-source {
+  color: #2f3239;
+  opacity: 1;
+}
+
+.source-block:hover .over-icon {
+  opacity: 0.7;
+}
+
+.portfolio-item:nth-child(2n) .source-block:hover .title-source {
+  color: #ffffff;
+}
+
+.portfolio-item:nth-child(2n) .git-icon {
+  filter: invert(100%) sepia(92%) saturate(0%) hue-rotate(246deg) brightness(106%) contrast(107%);
 }
 
 .languages-switch {
@@ -942,6 +960,12 @@ h1 {
 .links-git {
   display: flex;
   gap: 10px;
+}
+
+.title-source {
+  font-family: 'Kanyon-Light';
+  font-size: calc(var(--text-em) * 1.6);
+  opacity: 0;
 }
 
 @media screen and (max-width:1010px) {
