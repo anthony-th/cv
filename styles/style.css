@@ -1249,10 +1249,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0 40px;
   }
 
-  .logo-title {
-    display: none;
-  }
-
   .title-base {
     font-size: var(--text-320-title);
   }
@@ -1316,6 +1312,14 @@ h1, h2, h3, h4, h5, h6 {
 
   .progress-right {
     justify-content: space-around;
+  }
+
+  .logo {
+    left: 0;
+  }
+
+  .burger-menu {
+    margin: 15px 0 15px 10px;
   }
 
 }
