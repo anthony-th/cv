@@ -24,7 +24,7 @@ const i18nObj = {
     'contact-anchor': 'Contact',
     'code-anchor': 'Code example',
     'home-text': 'frontend developer',
-    'home-title': 'Hello! My nickname is',
+    'home-title': 'Hello! im',
     'resume-link': 'is found on the resume',
     'phone': 'Phone:',
     'address': 'Address:',
@@ -72,8 +72,8 @@ const i18nObj = {
     'portfolio-anchor': 'Портфолио',
     'contact-anchor': 'Контакты',
     'code-anchor': 'Пример кода',
-    'home-text': 'frontend разработчик',
-    'home-title': 'Здравствуйте! Мой гитхаб ник',
+    'home-text': 'frontend developer',
+    'home-title': 'Hello! im',
     'resume-link': 'информация в резюме',
     'phone': 'Телефон:',
     'address': 'Адрес:',
@@ -191,7 +191,7 @@ switcher.addEventListener('click', () => {
     switcher.alt = 'Russian language';
     lang = 'ru';
     translatePage(lang);
-    homeTitle.style.fontFamily = 'Kanyon-Light';
+    // homeTitle.style.fontFamily = 'Kanyon-Light';
 
   } else if (switcher.classList.contains('ru')) {
     switcher.src = './assets/images/uk.webp';
@@ -201,7 +201,7 @@ switcher.addEventListener('click', () => {
     switcher.alt = 'English language';
     lang = 'en';
     translatePage(lang);
-    homeTitle.style.fontFamily = 'sacramento, cursive';
+    // homeTitle.style.fontFamily = 'Reckoner';
   }
 });
 
