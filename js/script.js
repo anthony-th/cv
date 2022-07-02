@@ -69,7 +69,7 @@ const i18nObj = {
     'aboutme-anchor': 'Обо мне',
     'skills-anchor': 'Навыки',
     'experience-anchor': 'Опыт',
-    'education-anchor': 'Обучение',
+    'education-anchor': 'Образование',
     'portfolio-anchor': 'Портфолио',
     'contact-anchor': 'Контакты',
     'code-anchor': 'Пример кода',

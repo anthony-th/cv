@@ -115,7 +115,9 @@ h6 {
 .center-code,
 .link-git,
 .left-postition-text-symbol,
-.lines-block {
+.lines-block,
+.info-block-home,
+.links-git {
   display: flex;
 }
 
@@ -130,7 +132,8 @@ h6 {
 .home-left-container-welcome,
 .home-container,
 .code-left,
-.center-code {
+.center-code,
+.info-block-home {
   flex-direction: column;
 }
 
@@ -654,9 +657,7 @@ h6 {
 }
 
 .info-block-home {
-  display: flex;
   justify-content: space-between;
-  flex-direction: column;
   gap: 0;
   width: 194px;
 }
@@ -1055,7 +1056,6 @@ h6 {
 }
 
 .links-git {
-  display: flex;
   gap: 10px;
 }
 
