@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 .right-container {
   width: 64%;
   padding: 0;
-  row-gap: 20px;
+  gap: 20px;
 }
 
 .background-main {
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .address {
-  row-gap: 10px;
+  gap: 10px;
 }
 
 .text-bold  {
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .expirience-progress {
-  row-gap: 20px;
+  gap: 20px;
   width: 100%;
   margin-bottom: 30px;
   justify-content: space-between;
@@ -323,9 +323,8 @@ h1, h2, h3, h4, h5, h6 {
 .progress-right {
   width: 100%;
   justify-content: start;
-  row-gap: 20px;
+  gap: 20px 30px;
   flex-wrap: wrap;
-  column-gap: 30px;
 }
 
 .container-stack {
@@ -405,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .languages {
-  column-gap: 20px;
+  gap: 20px;
 }
 
 .infographic {
@@ -438,17 +437,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pre {
+  width: 100%;
   position: relative;
   border-radius: 7px;
   padding: 20px;
   background-color: rgba(201, 100, 59, 0.1);
+  color: #2f3239;
+  font-size: var(--text-em-2);
+}
+
+.code {
+  width: 100%;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-  color: #2f3239;
-  font-size: var(--text-em-2);
 }
 
 .select-all {
@@ -475,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .education-list-item {
-  row-gap: 13px;
+  gap: 13px;
   margin-bottom: 15px;
 }
 
@@ -504,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-info {
-  row-gap: 10px;
+  gap: 10px;
 }
 
 .portfolio-title {
@@ -655,7 +659,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-family: "Reckoner-Bold";
   line-height: 1;
-  font-size: 50px;
+  font-size: 52px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
   background: linear-gradient(to right, 
   #78418c, 
@@ -699,14 +703,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-left-container-welcome {
   height: 100%;
-  padding-top: 50px;
+  row-gap: 20px;
   width: 100%;
   justify-content: inherit;
 }
 
 .home-container {
   justify-content: space-between;
-  padding: 0 0 10px 0;
+  padding: 50px 0 10px 0;
 }
 
 .git-link {
@@ -908,11 +912,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .left-postition-text-symbol {
   align-items: center;
-  column-gap: 7px;
+  gap: 7px;
 }
 
 .code .left-postition-text-symbol {
-  column-gap: 3px;
+  gap: 3px;
 }
 
 .main-text {
@@ -1163,7 +1167,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .home-container {
     width: 100%;
-    padding: 0;
+    padding: 20px 0 0;
     align-items: flex-start;
   }
 
@@ -1172,12 +1176,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .section {
-    column-gap: 5px;
     flex-direction: column;
     align-items: center;
     width: 100%;
     padding: 40px 0;
-    row-gap: 20px;
+    gap: 20px 5px;
   }
 
   .home {
@@ -1185,7 +1188,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .home-left-container-welcome {
-    height: 215px;
     width: 100%;
     padding-left: 80px;
   }
@@ -1199,7 +1201,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .porfolio-list {
-    row-gap: 10px;
+    gap: 10px 3px;
   }
 
   .portfolio-info {
@@ -1223,6 +1225,7 @@ h1, h2, h3, h4, h5, h6 {
   .home-container {
     padding-left: 0;
   }
+
 }
 
 @media screen and (max-width: 619.98px) {
@@ -1259,7 +1262,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .home-left-container-welcome {
     padding-left: 30px;
-    height: 180px;
+    height: auto;
   }
 
   .right-container {

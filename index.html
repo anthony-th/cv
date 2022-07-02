@@ -418,33 +418,7 @@
               </div>
             </div>
             <div class="right-container code-block">
-            <pre class="pre">import axios from 'axios';
-
-const BASE_URL = 'http://localhost:5000';
-
-export function getProducts() {
-	return axios.get(`${BASE_URL}/api/products`)
-		.then(response => response.data);
-}
-
-export function getCartProducts(cart) {
-	return axios.post(`${BASE_URL}/api/products`, {cart})
-		.then(response => response.data);
-}
-
-export function login (data) {
-	return axios.post(`${BASE_URL}/api/auth`, { name: data.name, password: data.password })
-		.then(response => {
-			localStorage.setItem('x-access-token', response.data.token);
-			localStorage.setItem('x-access-token-expiration', Date.now() + 2 * 60 * 60 * 1000);
-			return response.data
-		})
-		.catch(err => Promise.reject('Error authentication!'));
-}
-
-export function isAuthenticated(){
-	return localStorage.getItem('x-access-token') && localStorage.getItem('x-access-token-expiration') > Date.now()
-}</pre><button class="select-all" data-i18n="select-all" title="For what? Because you can =)">Select and Copy all</button>
+            <pre class="pre"><code class="code">import&nbsp;axios&nbsp;from&nbsp;'axios';<br><br>const&nbsp;BASE_URL&nbsp;=&nbsp;'http://localhost:5000';<br><br>export&nbsp;function&nbsp;getProducts()&nbsp;{<br>&nbsp;return&nbsp;axios.get(`${BASE_URL}/api/products`)<br>&nbsp;&nbsp;.then(response&nbsp;=&gt;&nbsp;response.data);<br>}<br><br>export&nbsp;function&nbsp;getCartProducts(cart)&nbsp;{<br>&nbsp;return&nbsp;axios.post(`${BASE_URL}/api/products`,&nbsp;{cart})<br>&nbsp;&nbsp;.then(response&nbsp;=&gt;&nbsp;response.data);<br>}<br><br>export&nbsp;function&nbsp;login&nbsp;(data)&nbsp;{<br>&nbsp;return&nbsp;axios.post(`${BASE_URL}/api/auth`,&nbsp;{&nbsp;name:&nbsp;data.name,&nbsp;password:&nbsp;data.password&nbsp;})<br>&nbsp;&nbsp;.then(response&nbsp;=&gt;&nbsp;{<br>&nbsp;&nbsp;&nbsp;localStorage.setItem('x-access-token',&nbsp;response.data.token);<br>&nbsp;&nbsp;&nbsp;localStorage.setItem('x-access-token-expiration',&nbsp;Date.now()&nbsp;+&nbsp;2&nbsp;*&nbsp;60&nbsp;*&nbsp;60&nbsp;*&nbsp;1000);<br>&nbsp;&nbsp;&nbsp;return&nbsp;response.data<br>&nbsp;&nbsp;})<br>&nbsp;&nbsp;.catch(err&nbsp;=&gt;&nbsp;Promise.reject('Error&nbsp;authentication!'));<br>}<br><br>export&nbsp;function&nbsp;isAuthenticated(){<br>&nbsp;&nbsp;return&nbsp;localStorage.getItem('x-access-token')&nbsp;&&&nbsp;localStorage.getItem('x-access-token-expiration')&nbsp;&gt;&nbsp;Date.now()<br>}</code></pre><button class="select-all" data-i18n="select-all" title="For what? Because you can =)">Select and Copy all</button>
             </div>
           </section>
       </div>
