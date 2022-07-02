@@ -652,6 +652,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-nickname {
+  text-align: center;
   font-family: "Reckoner-Bold";
   line-height: 1;
   font-size: 50px;
