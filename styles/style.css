@@ -1227,18 +1227,6 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 619.98px) {
 
-  .home-title {
-    font-size: 30px;
-  }
-
-  .home-nickname {
-    font-size: 35px;
-  }
-
-  .home-text {
-    font-size: 22.5px;
-  }
-
   .languages-switch {
     width: 37px;
     height: 25px;
@@ -1272,28 +1260,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 485px) {
-
-  .home-title {
-    font-size: 22px;
-  }
-
-  .home-nickname {
-    font-size: 30px;
-  }
-
-  .home-text {
-    font-size: 19.5px;
-  }
-
-  .languages-switch {
-    width: 29px;
-    height: 20px;
-  }
-
-  .git-link {
-    width: 20px;
-    height: 20px;
-  }
 
   .home-left-container-welcome {
     padding-left: 30px;
