@@ -642,9 +642,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-family: "Reckoner";
   line-height: 1;
-  letter-spacing: 2.8px;
-  text-align: center;
+  letter-spacing: 3.1px;
   opacity: 0.7;
+  text-align: justify;
+  text-align-last: justify;
 }
 
 .info-block-home {
@@ -656,7 +657,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-nickname {
-  text-align: center;
+  text-align: justify;
+  text-align-last: justify;
   font-family: "Reckoner-Bold";
   line-height: 1;
   font-size: 50px;
