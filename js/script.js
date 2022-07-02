@@ -7,11 +7,12 @@ const burgerMenu = document.querySelector('.burger-menu');
 const burgerLine = document.querySelector('.lines-block');
 const navList = document.querySelector('.nav-list');
 const body = document.querySelector('body');
-let lang = document.querySelector('.languages-switch').dataset.i18lan;
 const shadow = document.querySelector('.shadow');
 const counter = document.querySelector('.counter');
 const recentWorksCounter = document.querySelectorAll('.portfolio-image');
 const header = document.querySelector('.header');
+const navItem = document.querySelectorAll('.nav-item');
+let lang = document.querySelector('.languages-switch').dataset.i18lan;
 
 const i18nObj = {
   'en': {
@@ -191,7 +192,11 @@ switcher.addEventListener('click', () => {
     switcher.alt = 'Russian language';
     lang = 'ru';
     translatePage(lang);
-    // homeTitle.style.fontFamily = 'Kanyon-Light';
+    if (document.body.clientWidth < 1010) {
+      navItem.forEach((element) => {
+        element.style.fontFamily = 'Ubuntu';
+      });
+    }
 
   } else if (switcher.classList.contains('ru')) {
     switcher.src = './assets/images/uk.webp';
@@ -201,7 +206,11 @@ switcher.addEventListener('click', () => {
     switcher.alt = 'English language';
     lang = 'en';
     translatePage(lang);
-    // homeTitle.style.fontFamily = 'Reckoner';
+    if (document.body.clientWidth < 1010) {
+      navItem.forEach((element) => {
+        element.style.fontFamily = 'Reckoner';
+      });
+    }
   }
 });
 

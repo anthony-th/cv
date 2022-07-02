@@ -94,8 +94,6 @@ h1, h2, h3, h4, h5, h6 {
 .center-code,
 .link-git,
 .left-postition-text-symbol,
-.curly-bracket-start,
-.curly-bracket-end,
 .lines-block {
   display: flex;
 }
@@ -126,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   justify-content: space-between;
   max-width: 980px;
-  padding: 0 10px;
+  padding: 0 0 0 10px ;
 }
 
 .header {
@@ -899,53 +897,62 @@ h1, h2, h3, h4, h5, h6 {
   column-gap: 3px;
 }
 
-.curly-bracket-start,
-.curly-bracket-end {
-  font-size: var(--text-em-2);
-  align-items: baseline;
-}
-
 .main-text {
   font-size: 13px;
 }
 
-.nav-item:nth-child(2):hover .curly-bracket-start,
-.nav-item:nth-child(2):hover .curly-bracket-end {
+.text-anchor::before {
+  content: '{';
+  padding-right: 5px;
+}
+
+.text-anchor::after {
+  content: '}';
+  padding-left: 5px;
+}
+
+.nav-item:hover .text-anchor::before,
+.nav-item:hover .text-anchor::after {
+  transition: 0.7s;
+}
+
+.nav-item:nth-child(2):hover .text-anchor::before,
+.nav-item:nth-child(2):hover .text-anchor::after {
   color: #c9643b;
 }
 
-.nav-item:first-child:hover .curly-bracket-start,
-.nav-item:first-child:hover .curly-bracket-end {
+.nav-item:first-child:hover .text-anchor::before,
+.nav-item:first-child:hover .text-anchor::after {
   color: #c93b59;
 }
 
-.nav-item:nth-child(3):hover .curly-bracket-start,
-.nav-item:nth-child(3):hover .curly-bracket-end {
+.nav-item:nth-child(3):hover .text-anchor::before,
+.nav-item:nth-child(3):hover .text-anchor::after {
   color: #7E9799;
 }
 
-.nav-item:nth-child(4):hover .curly-bracket-start,
-.nav-item:nth-child(4):hover .curly-bracket-end {
+.nav-item:nth-child(4):hover .text-anchor::before,
+.nav-item:nth-child(4):hover .text-anchor::after {
   color: #3b59c9;
 }
 
-.nav-item:nth-child(5):hover .curly-bracket-start,
-.nav-item:nth-child(5):hover .curly-bracket-end {
+.nav-item:nth-child(5):hover .text-anchor::before,
+.nav-item:nth-child(5):hover .text-anchor::after {
   color: #c11771;
 }
 
-.nav-item:nth-child(6):hover .curly-bracket-start,
-.nav-item:nth-child(6):hover .curly-bracket-end {
+.nav-item:nth-child(6):hover .text-anchor::before,
+.nav-item:nth-child(6):hover .text-anchor::after {
   color: #3bc9ab;
 }
 
-.nav-item:nth-child(7):hover .curly-bracket-start,
-.nav-item:nth-child(7):hover .curly-bracket-end {
+.nav-item:nth-child(7):hover .text-anchor::before,
+.nav-item:nth-child(7):hover .text-anchor::after {
   color: #DFAB0F;
 }
 
-.nav-item:last-child:hover .curly-bracket-start,
-.nav-item:last-child:hover .curly-bracket-end {
+.nav-item:last-child:hover .text-anchor::before,
+.nav-item:last-child:hover .text-anchor::after {
   color: #ff971a;
 }
 
@@ -1074,7 +1081,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     content: '';
     top: 50%;
-    left: -5px;
+    left: 0;
     width: 5px;
     height: 0;
     opacity: 0;
@@ -1100,10 +1107,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
   }
 
-  .text-anchor,
-  .curly-bracket-start,
-  .curly-bracket-end {
+  .text-anchor {
     font-size: 24px;
+    letter-spacing: 0.05em;
   }
 
   .logo {
