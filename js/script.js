@@ -114,6 +114,18 @@ const i18nObj = {
   }
 }
 
+window.addEventListener('resize', function() {
+  if (switcher.classList.contains('ru')) {
+    navItem.forEach((element) => {
+      element.style.fontFamily = 'Fontatica';
+    });
+  } else {
+    navItem.forEach((element) => {
+      element.style.fontFamily = 'Reckoner';
+    });
+  }
+});
+
 const changeMenu = function() {
   burgerLine.classList.toggle('rotate');
   navList.classList.remove('open');
