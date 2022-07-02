@@ -17,7 +17,7 @@ let lang = document.querySelector('.languages-switch').dataset.i18lan;
 const i18nObj = {
   'en': {
     'home-anchor': 'Home',
-    'aboutme-anchor': 'About Me',
+    'aboutme-anchor': 'About me',
     'skills-anchor': 'Skills',
     'experience-anchor': 'Experience',
     'education-anchor': 'Education',
@@ -194,7 +194,7 @@ switcher.addEventListener('click', () => {
     translatePage(lang);
     if (document.body.clientWidth < 1010) {
       navItem.forEach((element) => {
-        element.style.fontFamily = 'Ubuntu';
+        element.style.fontFamily = 'Fontatica';
       });
     }
 

@@ -32,6 +32,22 @@
   font-display: swap;
  }
 
+ @font-face {
+  font-family: "Fontatica";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/Fontatica.woff2") format("woff2");
+  font-display: swap;
+ }
+
+ @font-face {
+  font-family: "Fontatica-Italic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/Fontatica-Italic.woff2") format("woff2");
+  font-display: swap;
+ }
+
 :root {
   --text-section-description: 20px;
   --text-em: 16px;
@@ -123,8 +139,8 @@ h1, h2, h3, h4, h5, h6 {
 .header-container {
   margin: 0 auto;
   justify-content: space-between;
-  max-width: 980px;
-  padding: 0 0 0 10px ;
+  width: 980px;
+  padding: 0 10px ;
 }
 
 .header {
@@ -173,10 +189,11 @@ h1, h2, h3, h4, h5, h6 {
 .nav-item {
   height: 60px;
   color: #ffffff;
-  font-size: 12px;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.09em;
   font-weight: 300;
   text-transform: uppercase;
+  font-family: 'Fontatica';
 }
 
 .nav-item:first-child {
@@ -903,12 +920,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-anchor::before {
   content: '{';
-  padding-right: 5px;
+  padding-right: 3px;
 }
 
 .text-anchor::after {
   content: '}';
-  padding-left: 5px;
+  padding-left: 3px;
 }
 
 .nav-item:hover .text-anchor::before,
@@ -1037,6 +1054,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width:1010px) {
 
   .header-container {
+    width: auto;
     padding: 0;
   }
 
