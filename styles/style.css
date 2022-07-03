@@ -455,7 +455,7 @@ h6 {
 }
 
 .code {
-  width: 100%;
+  font-size: 12px;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
@@ -711,7 +711,6 @@ h6 {
 
 .home-left-container-welcome {
   height: 100%;
-  row-gap: 20px;
   width: 100%;
   justify-content: inherit;
 }
