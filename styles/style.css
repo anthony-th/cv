@@ -533,7 +533,7 @@ h6 {
 }
 
 .porfolio-list {
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   gap: 3px;
 }
@@ -987,22 +987,6 @@ h6 {
   color: #ff971a;
 }
 
-.pop-up-shelter {
-  display: none;
-}
-
-.pop-up-portfolio {
-  display: none;
-}
-
-.pop-up-eco-sounds {
-  display: none;
-}
-
-.pop-up-random-jokes {
-  display: none;
-}
-
 .shadow {
   position: fixed;
   left: -100vw;
@@ -1209,6 +1193,7 @@ h6 {
 
   .porfolio-list {
     gap: 10px 3px;
+    justify-content: center;
   }
 
   .portfolio-info {

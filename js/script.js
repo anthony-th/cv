@@ -53,8 +53,10 @@ const i18nObj = {
     'overlay-title-4': 'Project "Random jokes"',
     'overlay-title-5': 'Project "cssMemSlider"',
     'overlay-title-6': 'Project "Memory Game"',
+    'overlay-title-7': 'Project "Simple online shop"',
     'select-all': 'Select and Copy all',
     'portfolio-text-info': 'This section presents projects from the "JS/FE Pre-School 2022" and "JavaScript/Front-end 2022Q1" courses.',
+    'portfolio-text-info-hobby': `This section presents projects from the "hobby".`,
     'title-stack': 'My stack',
     'language-skill': 'Language skill',
     'overlay-text-1': 'Status: in progress',
@@ -62,7 +64,8 @@ const i18nObj = {
     'overlay-text-3': 'This project implements the playback of bird voices by the advised labels and the play/pause button',
     'overlay-text-4': 'This application displays a random quote from the API when the button is clicked (with sound and animation). The json file is used as the source of the quote. This application has a ru\\eng language switch',
     'overlay-text-5': 'The slider is made only in CSS. This work is adapted for Google Chrome, Mozilla Firefox',
-    'overlay-text-6': 'The memory game is implemented in vanilla js.'
+    'overlay-text-6': 'The memory game is implemented in vanilla js.',
+    'overlay-text-7': 'This application is made using react, react-redux.'
   },
   'ru': {
     'home-anchor': 'Домой',
@@ -101,8 +104,10 @@ const i18nObj = {
     'overlay-title-4': 'Проект "Случайные шутки"',
     'overlay-title-5': 'Проект "CSS мем-слайдер"',
     'overlay-title-6': 'Проект "Memory Game"',
+    'overlay-title-7': 'Проект "Simple online shop"',
     'select-all': 'Выделить и копировать всё',
     'portfolio-text-info': 'В этом разделе представлены проекты, выполненные в рамках программы курсов "JS/FE Pre-School 2022" и "JavaScript/Front-end 2022Q1".',
+    'portfolio-text-info-hobby': `В этом разделе представлены "хобби" проекты.`,
     'title-stack': 'Мой стэк',
     'language-skill': 'Знания языка',
     'overlay-text-1': 'Статус: в процессе выполнения',
@@ -110,7 +115,8 @@ const i18nObj = {
     'overlay-text-3': 'В этом проекте реализовано воспроизведение голосов птиц по предложенным надписям и кнопке воспроизведения/паузы',
     'overlay-text-4': 'Это приложение отображает случайную цитату из API при нажатии на кнопку (со звуком и анимацией). В качестве источника цитаты используется json-файл. Это приложение имеет переключатель языка ru\\eng',
     'overlay-text-5': 'Данный слайдер реализован только на CSS. Работа адаптирована для Google Chrome, Mozilla Firefox',
-    'overlay-text-6': 'Проект "Memory game" реализован на чистом JS без сторонних библиотек'
+    'overlay-text-6': 'Проект "Memory game" реализован на чистом JS без сторонних библиотек',
+    'overlay-text-7': 'Данный проект реализован с использованием: react, react-redux.'
   }
 }
 
