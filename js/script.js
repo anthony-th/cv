@@ -65,7 +65,7 @@ const i18nObj = {
     'overlay-text-4': 'This application displays a random quote from the API when the button is clicked (with sound and animation). The json file is used as the source of the quote. This application has a ru\\eng language switch',
     'overlay-text-5': 'The slider is made only in CSS. This work is adapted for Google Chrome, Mozilla Firefox',
     'overlay-text-6': 'The memory game is implemented in vanilla js.',
-    'overlay-text-7': 'This application is made using react, react-redux. Done: adding and removing to cart, product catalog, product description and cost'
+    'overlay-text-7': 'This application is made using react, react-redux. Done: add to cart and remove, product catalog, product description and cost.'
   },
   'ru': {
     'home-anchor': 'Домой',
