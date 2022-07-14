@@ -645,6 +645,7 @@ h6 {
   font-size: 17px;
   color: #ffffff;
   border-bottom: 2px solid #c93b59;
+  letter-spacing: 0.05em;
 }
 
 .overlay-text {
