@@ -364,8 +364,8 @@ h6 {
 }
 
 .img-stack {
-  max-width: 50px;
-  max-height: 50px;
+  width: 50px;
+  height: 50px;
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
 }
@@ -737,8 +737,8 @@ h6 {
 }
 
 .git-link {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
 
 .git-link:hover {
@@ -920,8 +920,8 @@ h6 {
 }
 
 .languages-switch {
-  width: 50px;
-  height: 30px;
+  width: 47px;
+  height: 28px;
   cursor: pointer;
   border: 1px solid rgba(47, 50, 57, 0.2);
 }
