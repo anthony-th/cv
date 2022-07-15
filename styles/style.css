@@ -366,6 +366,7 @@ h6 {
 .img-stack {
   width: 50px;
   height: 50px;
+  object-fit: contain;
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
 }
@@ -441,6 +442,7 @@ h6 {
 .infographic-percent {
   width: 100px;
   height: 100px;
+  object-fit: contain;
   border-radius: 100px;
   background-color: #ffa547;
 }
@@ -510,6 +512,7 @@ h6 {
 .education-title-img {
   width: 393px;
   height: 103.48px;
+  object-fit: contain;
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
 }
@@ -571,6 +574,7 @@ h6 {
 .portfolio-image {
   max-width: 654px;
   max-height: 175px;
+  object-fit: contain;
 }
 
 .overlay {
@@ -724,6 +728,7 @@ h6 {
 .home-img {
   max-width: 800px;
   max-height: 613px;
+  object-fit: contain;
 }
 
 .home-left-container-welcome {
@@ -740,6 +745,7 @@ h6 {
 .git-link {
   width: 28px;
   height: 28px;
+  object-fit: contain;
 }
 
 .git-link:hover {
@@ -923,6 +929,7 @@ h6 {
 .languages-switch {
   width: 47px;
   height: 28px;
+  object-fit: contain;
   cursor: pointer;
   border: 1px solid rgba(47, 50, 57, 0.2);
 }
