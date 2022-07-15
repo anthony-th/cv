@@ -558,8 +558,8 @@ h6 {
 }
 
 .portfolio-item {
-  max-width: 308.9px;
-  box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+  width: 308px;
+  box-shadow: 1px 3px 1px 0 rgb(0 0 0 / 8%);
   border: 1px solid #cfcfcf;
   background-color: #ffffff;
   font: normal 14px sans-serif;
@@ -567,13 +567,12 @@ h6 {
   overflow: hidden;
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
-  max-height: 180.5px;
+  height: auto;
   position: relative;
 }
 
 .portfolio-image {
-  max-width: 654px;
-  max-height: 175px;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -727,7 +726,6 @@ h6 {
 
 .home-img {
   max-width: 800px;
-  max-height: 613px;
   object-fit: contain;
 }
 
