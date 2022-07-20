@@ -275,6 +275,8 @@ h6 {
   padding: 80px 0;
   max-width: 980px;
   column-gap: 10px;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   margin: 0 auto;
 }
 
@@ -305,12 +307,16 @@ h6 {
 
 .expirience-info {
   row-gap: 10px;
+  -webkit-row-gap: 10px;
+  -moz-row-gap: 10px;
   font-size: var(--text-section-description);
   text-indent: 5px;
 }
 
 .address {
   gap: 10px;
+  -webkit-gap: 10px;
+  -moz-gap: 10px;
 }
 
 .text-bold {
@@ -319,6 +325,8 @@ h6 {
 
 .achievements {
   column-gap: 20px;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
 }
 
 .counter {
@@ -329,6 +337,8 @@ h6 {
 
 .expirience-progress {
   gap: 20px;
+  -webkit-gap: 20px;
+  -moz-gap: 20px;
   width: 100%;
   margin-bottom: 30px;
   justify-content: space-between;
@@ -348,12 +358,16 @@ h6 {
   width: 100%;
   justify-content: start;
   gap: 20px 30px;
+  -webkit-gap: 20px 30px;
+  -moz-gap: 20px 30px;
   flex-wrap: wrap;
 }
 
 .container-stack {
   align-items: center;
   row-gap: 5px;
+  -webkit-row-gap: 5px;
+  -moz-row-gap: 5px;
   width: 58px;
   height: 75px;
 }
@@ -433,6 +447,8 @@ h6 {
 
 .languages {
   gap: 20px;
+  -webkit-gap: 20px;
+  -moz-gap: 20px;
 }
 
 .infographic {
@@ -497,6 +513,8 @@ h6 {
 
 .code-block {
   row-gap: 0;
+  -webkit-row-gap: 0;
+  -moz-row-gap: 0;
   align-items: center;
 }
 
@@ -509,6 +527,8 @@ h6 {
 
 .education-list-item {
   gap: 13px;
+  -webkit-gap: 13px;
+  -moz-gap: 13px;
   margin-bottom: 15px;
 }
 
@@ -539,6 +559,8 @@ h6 {
 
 .portfolio-info {
   gap: 10px;
+  -webkit-gap: 10px;
+  -moz-gap: 10px;
 }
 
 .portfolio-title {
@@ -558,6 +580,8 @@ h6 {
   justify-content: start;
   flex-wrap: wrap;
   gap: 3px;
+  -webkit-gap: 3px;
+  -moz-gap: 3px;
 }
 
 .portfolio-item {
@@ -682,6 +706,8 @@ h6 {
 .info-block-home {
   justify-content: space-between;
   gap: 0;
+  -webkit-gap: 0;
+  -moz-gap: 0;
   width: 194px;
 }
 
@@ -761,6 +787,8 @@ h6 {
 .home-left-container-links {
   padding: 0 47px;
   column-gap: 5px;
+  -webkit-column-gap: 5px;
+  -moz-column-gap: 5px;
 }
 
 .logo-title {
@@ -798,6 +826,8 @@ h6 {
 
 .home {
   column-gap: 0;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
 }
 
 .btnTop {
@@ -896,6 +926,8 @@ h6 {
 .link-git {
   align-items: center;
   column-gap: 10px;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   text-decoration: none;
   color: #ffffff;
   width: fit-content;
@@ -946,10 +978,14 @@ h6 {
 .left-postition-text-symbol {
   align-items: center;
   gap: 7px;
+  -webkit-gap: 7px;
+  -moz-gap: 7px;
 }
 
 .code .left-postition-text-symbol {
   gap: 3px;
+  -webkit-gap: 3px;
+  -moz-gap: 3px;
 }
 
 .main-text {
@@ -1064,6 +1100,8 @@ h6 {
 
 .links-git {
   gap: 10px;
+  -webkit-gap: 10px;
+  -moz-gap: 10px;
 }
 
 .title-source {
@@ -1191,6 +1229,8 @@ h6 {
     width: 100%;
     padding: 40px 0;
     gap: 20px 5px;
+    -webkit-gap: 20px 5px;
+    -moz-gap: 20px 5px;
   }
 
   .home {
@@ -1212,6 +1252,8 @@ h6 {
 
   .porfolio-list {
     gap: 10px 3px;
+    -webkit-gap: 10px 3px;
+    -moz-gap: 10px 3px;
     justify-content: center;
   }
 
