@@ -54,6 +54,7 @@ const i18nObj = {
     'overlay-title-5': 'Project "cssMemSlider"',
     'overlay-title-6': 'Project "Memory Game"',
     'overlay-title-7': 'Project "Simple online shop"',
+    'overlay-title-8': 'Project "Simple todo-list"',
     'select-all': 'Select and Copy all',
     'portfolio-text-info': 'This section presents projects from the "JS/FE Pre-School 2022" and "JavaScript/Front-end 2022Q1" courses.',
     'portfolio-text-info-hobby': `This section presents projects from the "hobby".`,
@@ -65,7 +66,8 @@ const i18nObj = {
     'overlay-text-4': 'This application displays a random quote from the API when the button is clicked (with sound and animation). The json file is used as the source of the quote. This application has a ru\\eng language switch',
     'overlay-text-5': 'The slider is made only in CSS. This work is adapted for Google Chrome, Mozilla Firefox',
     'overlay-text-6': 'The memory game is implemented in vanilla js.',
-    'overlay-text-7': 'This application is made using react, react-redux. Done: add to cart and remove, product catalog, product description and cost.'
+    'overlay-text-7': 'This application is made using react, react-redux. Done: add to cart and remove, product catalog, product description and cost.',
+    'overlay-text-8': `What is a ToDo List? The definition is a simple one. It's a list of tasks you need to complete or things that you want to do. This project is a simple to-do list created with Angular`,
   },
   'ru': {
     'home-anchor': 'Домой',
@@ -105,6 +107,7 @@ const i18nObj = {
     'overlay-title-5': 'Проект "CSS мем-слайдер"',
     'overlay-title-6': 'Проект "Memory Game"',
     'overlay-title-7': 'Проект "Simple online shop"',
+    'overlay-title-8': 'Проект "Simple todo-list"',
     'select-all': 'Выделить и копировать всё',
     'portfolio-text-info': 'В этом разделе представлены проекты, выполненные в рамках программы курсов "JS/FE Pre-School 2022" и "JavaScript/Front-end 2022Q1".',
     'portfolio-text-info-hobby': `В этом разделе представлены "хобби" проекты.`,
@@ -116,7 +119,8 @@ const i18nObj = {
     'overlay-text-4': 'Это приложение отображает случайную цитату из API при нажатии на кнопку (со звуком и анимацией). В качестве источника цитаты используется json-файл. Это приложение имеет переключатель языка ru\\eng',
     'overlay-text-5': 'Данный слайдер реализован только на CSS. Работа адаптирована для Google Chrome, Mozilla Firefox',
     'overlay-text-6': 'Проект "Memory game" реализован на чистом JS без сторонних библиотек',
-    'overlay-text-7': 'Данный проект реализован с использованием: react, react-redux. Реализовано: добавление, удаление в корзину, каталог товаров, описание товаров и стоимость.'
+    'overlay-text-7': 'Данный проект реализован с использованием: react, react-redux. Реализовано: добавление, удаление в корзину, каталог товаров, описание товаров и стоимость.',
+    'overlay-text-8': 'Что такое список дел? Определение очень простое. Это список задач, которые вам нужно выполнить, или вещей, которые вы хотите сделать. Этот проект представляет собой простой список дел, созданный с помощью Angular'
   }
 }
 
